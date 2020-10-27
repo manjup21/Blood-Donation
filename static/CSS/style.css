@@ -1,0 +1,31 @@
+body{
+    background-image: url(../img/background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar-nav > li {
+    padding-left:10px;
+    padding-right:10px;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.navbar-brand{
+    color: red !important;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.jumbotron {
+    padding: 10px 0px 10px 0px;
+    border: 10px solid #003366;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
