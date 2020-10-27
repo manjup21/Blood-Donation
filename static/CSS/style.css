@@ -23,7 +23,7 @@ body{
 
 .jumbotron {
     padding: 10px 0px 10px 0px;
-    border: 10px solid #003366;
+    border: 10px solid red;
     width: 700px;
     margin: 0 auto;
     border-radius: 10px;
