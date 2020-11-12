@@ -23,9 +23,31 @@ body{
 
 .jumbotron {
     padding: 10px 0px 10px 0px;
-    border: 10px solid red;
+    border: 6px solid red;
     width: 700px;
     margin: 0 auto;
     border-radius: 10px;
 }
 
+.jumbotron.form{
+    padding: 10px 0px 10px 0px;
+    border: 6px solid red;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.jumbotron label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2378D9;
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+}
+
+.jumbotron input {
+    width: 50%;
+    margin: 8px 0;
+    border: 2px solid;
+    box-sizing: border-box;
+}
