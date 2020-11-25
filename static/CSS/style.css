@@ -36,8 +36,8 @@ body{
     margin: 0 auto;
     border-radius: 10px;
 }
-.jumbotron label {
-    font-size: 18px;
+.jumbotron.form label {
+    font-size: 20px;
     font-weight: bold;
     color: #2378D9;
     width: 150px;
@@ -45,9 +45,69 @@ body{
     text-align: left;
 }
 
-.jumbotron input {
+.jumbotron.form input {
     width: 50%;
     margin: 8px 0;
     border: 2px solid;
     box-sizing: border-box;
+}
+
+.jumbotron.thanks{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.jumbotron.bankinfo{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.jumbotron.bankinfo label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2378D9;
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+}
+
+.jumbotron.bankinfo input {
+    width: 50%;
+    margin: 8px 0;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.jumbotron.info{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.info.leftside{
+    align-items: left;
+    align-content: left;
+}
+.info table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.info table th{
+    text-align: left;
+    border: 2px solid red; 
+    color: black;
+    background-color: #2378D9;   
+}
+.info table td{
+    border: 2px solid red;
+    padding: 7px 50px;
+    text-align: left;
+    font-size: medium;
 }

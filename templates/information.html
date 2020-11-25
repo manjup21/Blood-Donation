@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block page%}
+<br><br>
+<center>
+    <div class="jumbotron jumbotron-fluid bg-light info">
+        <div class="container">
+            <center><h3 style="font-weight: bold; color: red;">LEARN ABOUT BLOOD DONATION</h3></center>
+            <div class="row no-gutters justify-content-around">
+                <div class="col" style="margin-left:-30px">
+                    <div class="leftside" allign="left">
+                        <img src="{{url_for('static',filename='img/information.png')}}" width="500" height="300" ><br><br>
+                        <p style="font-size: 17px; font-weight: 500; color: #2378D9; text-align: left;">After donating blood, the body works to replenish the blood loss. This stimulates the production of new blood cells and in turn, helps in maintaining good health.</p>
+                        <a href="{{ url_for('donate') }}"><button class="btn btn-danger" style="font-size: 13px; padding: 6px 20px;"> Donate</button></a>
+                    </div>
+                </div>
+                <!-- <div class="col-sm-1"></div> -->
+                <div class="col" style="margin-left:50px">
+                    <div class="rightside">
+                        <h5 style="background-color:red; text-align: left; color:white; border-radius: 7px; ">Compatible Blood Type Donors</h5>
+                        <table>
+                            <tr>
+                                <th>Blood Type</th>
+                                <th>Donate Blood To</th>
+                                <th>Receive Blood From </th>
+                            </tr>
+                            <tr>
+                                <td>A+</td>
+                                <td>A+ AB+</td>
+                                <td>A+ A- O+ O-</td>
+                            </tr>
+                            <tr>
+                                <td>O+</td>
+                                <td>O+ A+ B+ AB+</td>
+                                <td>O+ O-</td>
+                            </tr>
+                            <tr>
+                                <td>B+</td>
+                                <td>B+ AB+</td>
+                                <td>B+ B- O+ O-</td>
+                            </tr>
+                            <tr>
+                                <td>AB+</td>
+                                <td>AB+</td>
+                                <td>Everyone</td>
+                            </tr>
+                            <tr>
+                                <td>A-</td>
+                                <td>A+ A- AB+ AB-</td>
+                                <td>A- O-</td>
+                            </tr>
+                            <tr>
+                                <td>O-</td>
+                                <td>Everyone</td>
+                                <td>O-</td>
+                            </tr>
+                            <tr>
+                                <td>B-</td>
+                                <td>B+ B- AB+ AB-</td>
+                                <td>B- O-</td>
+                            </tr>
+                            <tr>
+                                <td>AB-</td>
+                                <td>AB+ AB-</td>
+                                <td>AB- A- B- O-</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </center>
+{% endblock %}

@@ -1,5 +1,16 @@
 {% extends 'base.html' %}
 
 {% block page%}
- 
+<br><br>
+<center>
+    <div class="jumbotron jumbotron-fluid bg-light thanks">
+        <div class="container">
+          <center><img src="{{url_for('static',filename='img/thanks.png')}}" width="300" height="300" style="border-radius: 50px;"alt=""></center>
+          <p style="font-size: 20px; font-weight: 500; color: #2378D9; text-align: center;">
+            "Nothing is a more precious gift than gifting your life to someone in liqid form".You became hero today.<br>
+            Thank you {{ name }}. Please collect your gift for donating the blood.
+          </p>
+        </div>
+      </div>
+    </center>
 {% endblock %}
