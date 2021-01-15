@@ -111,3 +111,141 @@ body{
     text-align: left;
     font-size: medium;
 }
+
+.jumbotron.sorry{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.jumbotron.show_info{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.show_info table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.show_info table th{
+    text-align: left;
+    border: 2px solid red; 
+    color: black;
+    background-color: #2378D9;   
+}
+.show_info table td{
+    border: 2px solid red;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: medium;
+}
+.jumbotron.bloodneed{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.jumbotron.bloodneed label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2378D9;
+    width: 130px;
+    display: inline-block;
+    text-align: right;
+}
+
+.jumbotron.bloodneed input {
+    width: 30%;
+    margin: 8px 0;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.jumbotron.gotblood{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.jumbotron.gotblood label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2378D9;
+    width: 160px;
+    display: inline-block;
+    text-align: left;
+}
+.jumbotron.gotblood input{
+    width: 40%;
+    margin: 8px 0;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.jumbotron.after{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.jumbotron.so_sad{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.jumbotron.searchblood{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.jumbotron.searchblood label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2378D9;
+    width: 130px;
+    display: inline-block;
+    text-align: left;
+}
+.jumbotron.searchblood input{
+    width: 50%;
+    margin: 8px 0;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.jumbotron.show_info{
+    padding: 10px 0px 10px 0px;
+    border: 4px solid red;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.otheroption table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.otheroption table th{
+    text-align: left;
+    border: 2px solid red; 
+    color: black;
+    background-color: #2378D9;   
+}
+.otheroption table td{
+    border: 2px solid red;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: medium;
+}

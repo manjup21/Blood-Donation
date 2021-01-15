@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block page %}
+<br><br><br>
+<center>
+<div class="jumbotron jumbotron-fluid bg-light gotblood">
+    <div class="container">
+      <h4 style="font-weight: bold; color: red;">Hurray there is {{ li[16:17] }} Packets of {{ li[3:13] }} blood. Please fill the below details to collect the blood</h4>
+      <form action="#" method="post">
+        <label for="Name">Name:</label>
+        <input type="text" name="name" autocomplete="off" required><br><br>
+        <label for="location">Location:</label>
+        <input type="text" list="locat" name="location" required>
+              <datalist id="locat">
+                  <option>Bagalkot</option>
+                  <option>Ballari (Bellary)</option>
+                  <option>Belagavi (Belgaum)</option>
+                  <option>Bengaluru (Bangalore) Rural</option>
+                  <option>Bengaluru (Bangalore) Urban</option>
+                  <option>Bidar</option>
+                  <option>Chamarajanagar</option>
+                  <option>Chikballapur</option>
+                  <option>Chikkamagaluru (Chikmagalur)</option>
+                  <option>Chitradurga</option>
+                  <option>Dakshina Kannada</option>
+                  <option>Davangere</option>
+                  <option>Dharwad</option>
+                  <option>Gadag</option>
+                  <option>Hassan</option>
+                  <option>Haveri</option>
+                  <option>Kalaburagi (Gulbarga)</option>
+                  <option>Kodagu</option>
+                  <option>Kolar</option>
+                  <option>Koppal</option>
+                  <option>Mandya</option>
+                  <option>Mysuru (Mysore)</option>
+                  <option>Raichur</option>
+                  <option>Ramanagara</option>
+                  <option>Shivamogga (Shimoga)</option>
+                  <option>Tumakuru (Tumkur)</option>
+                  <option>Udupi</option>
+                  <option>Uttara Kannada (Karwar)</option>
+                  <option>Vijayapura (Bijapur)</option>
+                  <option>Yadgir</option>
+              </datalist><br><br>
+        <label for="group">Blood Group:</label>
+        <input type="text" list="bloodgroup" name="groups" required>
+            <datalist id="bloodgroup">
+                <option>A Positive</option>
+                <option>A Negative</option>
+                <option>A Unknown</option>
+                <option>B Positive</option>
+                <option>B Negative</option>
+                <option>B Unknown</option>
+                <option>AB Positive</option>
+                <option>AB Negative</option>
+                <option>AB Unknown</option>
+                <option>O Positive</option>
+                <option>O Negative</option>
+                <option>O Unknown</option>
+                <option>Unknown</option>
+            </datalist><br><br>
+        <label for="Phone">Phone number:</label>
+        <input type="tel" name="phone" autocomplete="off"><br><br>
+        <label for="amount">Amount of Blood:</label>
+        <input type="number" name="quantity" min=1 max={{ num }} required><br><br>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
+    </div>
+  </div>
+</center>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block page %}
+<br><br><br>
+<center>
+<div class="jumbotron jumbotron-fluid bg-light so_sad">
+    <div class="container">
+      <h4 style="font-weight: bold; color: red; text-align: left;">Sorry No {{ group }} blood group is Present in {{ loc }} Please Click Below Button to Check if {{ group }} is Present in any other location</h4>
+      <a href="{{ url_for('others') }}"><button class="btn btn-danger" style="font-size: 13px; padding: 6px 20px;">Click Here</button></a>
+    </div>
+  </div>
+</center>
+{% endblock %}

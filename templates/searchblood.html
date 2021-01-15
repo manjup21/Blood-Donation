@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block page%}
+<br><br>
+<center>
+    <div class="jumbotron jumbotron-fluid bg-light searchblood">
+        <div class="container">
+          <h3 class="display-5" style="font-weight: bold; color: red;">Search by Blood Group</h3>
+          <form action="#" method="post">
+            <label for="group">Blood Group:</label>
+            <input type="text" list="bloodgroup" name="groups1" required>
+            <datalist id="bloodgroup">
+                <option>A Positive</option>
+                <option>A Negative</option>
+                <option>A Unknown</option>
+                <option>B Positive</option>
+                <option>B Negative</option>
+                <option>B Unknown</option>
+                <option>AB Positive</option>
+                <option>AB Negative</option>
+                <option>AB Unknown</option>
+                <option>O Positive</option>
+                <option>O Negative</option>
+                <option>O Unknown</option>
+                <option>Unknown</option>
+            </datalist>&nbsp;&nbsp;
+            <button type="submit" class="btn btn-danger" style="font-size: 13px; padding: 6px 20px;"> Search</button>
+          </form>
+        </div>
+      </div>
+</center>
+{% endblock %}

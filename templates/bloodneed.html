@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block page%}
+<br><br>
+<center>
+    <div class="jumbotron jumbotron-fluid bg-light bloodneed">
+        <div class="container">
+          <h3 class="display-5" style="font-weight: bold; color: red;">Search by Blood Group and Location</h3>
+          <form action="#" method="post">
+            <label for="group">Blood Group:</label>
+            <input type="text" list="bloodgroup" name="groups1" required>
+            <datalist id="bloodgroup">
+                <option>A Positive</option>
+                <option>A Negative</option>
+                <option>A Unknown</option>
+                <option>B Positive</option>
+                <option>B Negative</option>
+                <option>B Unknown</option>
+                <option>AB Positive</option>
+                <option>AB Negative</option>
+                <option>AB Unknown</option>
+                <option>O Positive</option>
+                <option>O Negative</option>
+                <option>O Unknown</option>
+                <option>Unknown</option>
+            </datalist>&nbsp;&nbsp;
+            <label for="loc" style="width: 80px">Location: </label>&nbsp;
+            <input type="text" list="locat" name="location2" required>
+                <datalist id="locat">
+                    <option>Bagalkot</option>
+                    <option>Ballari (Bellary)</option>
+                    <option>Belagavi (Belgaum)</option>
+                    <option>Bengaluru (Bangalore) Rural</option>
+                    <option>Bengaluru (Bangalore) Urban</option>
+                    <option>Bidar</option>
+                    <option>Chamarajanagar</option>
+                    <option>Chikballapur</option>
+                    <option>Chikkamagaluru (Chikmagalur)</option>
+                    <option>Chitradurga</option>
+                    <option>Dakshina Kannada</option>
+                    <option>Davangere</option>
+                    <option>Dharwad</option>
+                    <option>Gadag</option>
+                    <option>Hassan</option>
+                    <option>Haveri</option>
+                    <option>Kalaburagi (Gulbarga)</option>
+                    <option>Kodagu</option>
+                    <option>Kolar</option>
+                    <option>Koppal</option>
+                    <option>Mandya</option>
+                    <option>Mysuru (Mysore)</option>
+                    <option>Raichur</option>
+                    <option>Ramanagara</option>
+                    <option>Shivamogga (Shimoga)</option>
+                    <option>Tumakuru (Tumkur)</option>
+                    <option>Udupi</option>
+                    <option>Uttara Kannada (Karwar)</option>
+                    <option>Vijayapura (Bijapur)</option>
+                    <option>Yadgir</option>
+                </datalist>&nbsp;
+
+                <button type="submit" class="btn btn-danger" style="font-size: 13px; padding: 6px 20px;"> Search</button>
+          </form>
+        </div>
+      </div>
+</center>
+{% endblock %}
