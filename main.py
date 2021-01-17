@@ -81,7 +81,6 @@ def others():
     if request.method=='POST':
         group=request.form['groups1']
         data=helper.get_by_group(group)
-        print(data)
         return render_template("otheroptions.html",data=data)
     else:
         return render_template('searchblood.html')
